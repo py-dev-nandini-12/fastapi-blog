@@ -1,0 +1,68 @@
+body {
+  background-color: #282c34;
+  color: white;
+  font-family: 'Arial', sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.card {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 16px;
+  margin: 16px;
+  max-width: 600px;
+  background: black;
+}
+
+.card-title {
+  text-align: center;
+  margin-bottom: 16px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 16px;
+}
+
+button {
+  background-color: #61dafb;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  cursor: pointer;
+  font-size: 14px;
+  border-radius: 4px;
+}
+
+button:hover {
+  background-color: #4fa3d1;
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 16px;
+  box-sizing: border-box;
+}
+
+input[type="text"] {
+  height: 30px;
+}
+
+textarea {
+  resize: vertical;
+}
+p {
+  font-style: italic; /* Set the font style to italic for all paragraphs */
+}
+
+/* Add more styles as needed */
